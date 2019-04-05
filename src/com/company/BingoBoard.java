@@ -1,3 +1,11 @@
+/*
+Author: Mihkel Ausmaa
+Last updated: 05.04.2019
+
+Class Bingoboard. Create empty bingo board and logic to generate different win situations.
+Have to clear board every time new situation is called.
+*/
+
 package com.company;
 
 public class BingoBoard {
@@ -83,7 +91,7 @@ public class BingoBoard {
 
     //method to generate board header
     private void generateHeader() {
-        char[] localCell = (char[]) emptyCell.clone();
+        char[] localCell = emptyCell.clone();
         for (int i = 0; i < dimensionX; i++) {
             localCell[2] = bingo.charAt(i);
             System.out.print(localCell);
@@ -102,7 +110,7 @@ public class BingoBoard {
 
     //method for board body. To fill with "empty" or "X" logic
     private void generateBody() {
-        char[] cellX = (char[]) emptyCell.clone();
+        char[] cellX = emptyCell.clone();
         cellX[2] = filledCell;
         for (int i = 0; i < 5 ; i++) {
             System.out.println(rowSeparator);

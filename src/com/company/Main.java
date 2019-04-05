@@ -1,3 +1,13 @@
+/*
+Author: Mihkel Ausmaa
+Last updated: 05.04.2019
+
+Main class where new object with attributes will be called to generate bingo board.
+User input needed to generate win situation.
+User input needed to close the program.
+*/
+
+
 package com.company;
 
 import java.util.Scanner;
