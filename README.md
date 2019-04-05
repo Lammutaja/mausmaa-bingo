@@ -16,13 +16,8 @@ IntelliJ, Eclipse
 ### Installing
 
 ```
-Pull repository and run Main.java in your IDEA
+Pull repository and build + run Main.java in your IDEA
 ```
-
-
-## Built With
-
-* Java
 
 
 ## Authors
