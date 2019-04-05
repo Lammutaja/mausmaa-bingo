@@ -16,7 +16,10 @@ IntelliJ, Eclipse
 ### Installing
 
 ```
-Pull repository and build + run Main.java in your IDEA
+Clone or download files.
+
+To clone copy url: https://github.com/Lammutaja/mausmaa-bingo.git and in IntellJ choose VCS -> Checkout from version control -> Git
+build + run Main.java in your IDEA
 ```
 
 
